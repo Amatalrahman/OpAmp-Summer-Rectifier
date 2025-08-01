@@ -1,4 +1,4 @@
-# 🎛️ Weighted Summer Circuit – EICN2241
+# Weighted Summer Circuit
 
 This project demonstrates the design, simulation, and hardware implementation of a **weighted summing amplifier** using an op-amp (TL084/LM324). It's part of the Analog Circuits Lab course – Summer 2024.
 
@@ -53,7 +53,7 @@ Vout = - (V1 + V2)
 - Used `ode15s` solver in Simulink  
 - Real-world noise and tolerance caused small deviations
 
-## Team 2
+## Team 
 - Ziad Mohamed Hamed  
 - Amat Al-Rahman Sayed Mohamed  
 - Mostafa Hany Tawfik  
