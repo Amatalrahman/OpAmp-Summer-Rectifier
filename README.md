@@ -24,3 +24,38 @@ Vout = - (V1 + V2)
 📁 weighted-summer-circuit/
 ├── summer_simulation.slx # Simulink model
 ├── circuit_schematic.png 
+
+
+---
+
+## 🔬 What We Did
+
+- Simulated the circuit using Simulink  
+- Verified theoretical and simulation outputs match  
+- Built the circuit on a breadboard  
+- Collected and analyzed practical results
+
+---
+
+## 📈 Results Snapshot
+
+| V₁ (V) | V₂ (V) | V₀ (Expected) | V₀ (Measured) |
+|--------|--------|----------------|----------------|
+| 2.5    | 3.5    | -6.0           | -5.98          |
+| -1.2   | 0.7    | 0.5            | 0.51           |
+| 4.8    | -3.2   | -1.6           | -1.61          |
+
+---
+
+## Notes
+
+- Assumes ideal op-amp behavior (virtual ground, infinite gain)  
+- Used `ode15s` solver in Simulink  
+- Real-world noise and tolerance caused small deviations
+
+## Team 2
+- Ziad Mohamed Hamed  
+- Amat Al-Rahman Sayed Mohamed  
+- Mostafa Hany Tawfik  
+- Alaa Essam Abd Alazim  
+- Mariam Hosny Abdel-Moneim  
